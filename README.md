@@ -68,6 +68,6 @@ Here's the Markdown for an unordered list:
 ```
 Result :
 > - First
->  - Nested
+>   - Nested
 > - Second
 > - Third

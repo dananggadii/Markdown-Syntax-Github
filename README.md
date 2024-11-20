@@ -1,6 +1,6 @@
 # Markdown Syntax Github
 
-## Headers
+## Declare headings
 To create headers, add the pound/hash symbol (#) in front of your text. The number of pound symbols determines the header level.
 ```
 #Header 1
@@ -34,3 +34,27 @@ __This is bold and *italic* text__ using double underscores for bold and single 
 > _This is **italic and bold** text_ using a single underscore for italic and double asterisks for bold.
 >
 > **This is bold and _italic_ text** using double underscores for bold and single asterisks for italic.
+
+## Link to images and sites
+Image and site links use a similar syntax.
+```
+![Link an image.](/learn/azure-devops/shared/media/mara.png)
+```
+```
+[Link to Microsoft Training](/training)
+```
+
+## Make lists
+You can define ordered or unordered lists. You can also define nested items through indentation.
+- Ordered lists start with numbers.
+- Unordered lists can use asterisks or dashes (-).
+Here's the Markdown for an ordered list:
+```
+1. First
+1. Second
+1. Third
+```
+Result : 
+> 1. First
+> 2. Second
+> 3. Third

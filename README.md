@@ -71,3 +71,68 @@ Result :
 >   - Nested
 > - Second
 > - Third
+
+## Build tables
+You can construct tables using a combination of pipes (|) for column breaks and dashes (-) to designate the prior row as a header.
+```
+First|Second
+-|-
+1|2
+3|4
+```
+Result : 
+> First|Second
+> -|-
+> 1|2
+> 3|4
+
+## Quote text
+You can create blockquotes using the greater than (>) character.
+```
+> This is quoted text.
+```
+> This is quoted text.
+
+## Fill the gaps with inline HTML
+If you come across an HTML scenario not supported by Markdown, you can use that HTML inline.
+```
+Here is a<br />line break
+```
+> Here is a<br />line break
+
+## Work with code
+Markdown provides default behavior for working with inline code blocks delimited by the backtick (`) character. When decorating text with this character, it's rendered as code.
+```
+This is `code`.
+```
+> This is `code`.
+
+GFM extends this support with syntax highlighting for popular languages. Just specify the language as part of the first tick sequence.
+```javascript
+var first = 1;
+var second = 2;
+var sum = first + second;
+```
+> ```javascript
+> var first = 1;
+> var second = 2;
+> var sum = first + second;
+> ```
+
+## Mention users and teams
+```
+@githubteacher
+```
+> @githubteacher
+
+## Track task lists
+You can create task lists within issues or pull requests using the following syntax. These can be helpful to track progress when used in the body of an issue or pull request.
+```
+- [x] First task
+- [x] Second task
+- [ ] Third task
+```
+> - [x] First task
+> - [x] Second task
+> - [ ] Third task
+

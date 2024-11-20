@@ -17,7 +17,7 @@ Using italics in text is as easy as surrounding the target text with single aste
 This is *italic* text.
 This is also _italic_ text.
 ```
-> This is italic text. This is also italic text.
+> This is *italic* text. This is also _italic_ text.
 
 Create bold text by using two asterisks (**) or two underscores (__).
 ```

@@ -1,1 +1,1 @@
-# Markdown-Syntax-Github
+# Markdown Syntax Github

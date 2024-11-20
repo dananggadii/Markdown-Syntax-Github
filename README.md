@@ -32,4 +32,5 @@ _This is **italic and bold** text_ using a single underscore for italic and doub
 __This is bold and *italic* text__ using double underscores for bold and single asterisks for italic.
 ```
 > _This is **italic and bold** text_ using a single underscore for italic and double asterisks for bold.
+>
 > **This is bold and _italic_ text** using double underscores for bold and single asterisks for italic.

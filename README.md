@@ -24,4 +24,4 @@ Create bold text by using two asterisks (**) or two underscores (__).
 This is **bold** text.
 This is also __bold__ text.
 ```
-> This is bold text. This is also bold text.
+> This is **bold** text. This is also __bold__ text.
